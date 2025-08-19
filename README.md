@@ -1,7 +1,48 @@
-# MusicPlayer
-A Music Player(Console based) Made Using Microsoft .NET, Uses NAudio Package and You Need Microsoft .NET Runtime to run the Release .exe.  
-1. First Enter the Path to the Directory with .mp3 Files Or you can just press enter to use the directory the app is in.  
-2. Then you can choose from the given menu by putting the Respective number of the Option Or you Can Type play, pause, stop, etc.  
-3. If you Chose to Play, then chose the .mp3 file you will use by inputting the number of that file.  
-4. You can Pause it or Stop it.  
-5. Input 7 or Exit or quit to exit the app.  
+# 🎵 C# Music Player
+
+A simple and modern Console Based **Music Player** built with **C#** and **NAudio**.  
+Supports playback of popular formats like MP3 and WAV, with a clean and minimal codebase.
+
+---
+
+## ✨ Features
+- ▶️ Play / ⏸ Pause / ⏹ Stop audio
+- 🎚 Volume control
+- 🎨 Clean C# code with modern syntax
+- 🪟 Works on **Windows** (requires .NET 6+)
+
+---
+
+## 📦 Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/VanillaShoaib/MusicPlayer.git
+2. Build and run:
+   ```Bash
+   cd MusicPlayer
+   dotnet run
+
+3. Or publish as a Windows .exe:
+   ```Bash
+   dotnet publish -c Release -r win-x64 --self-contained true
+
+## 🎮 Usage
+1. First Input the path to the Music Folder.
+2. Then Select one of the option from the Menu by inputting the no. (1 to play a song).
+3. Play it, Pause it, Stop it, Change the Volume, Choose a new song...
+4. Exit by 'exit', 'quit' or '7'.
+
+## 🛠 Tech Stack
+- C#.  
+- .NET 9.0.1.  
+- NAudio.
+
+## 📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+## 👨‍💻 Author
+
+Made with ❤️ by Shoaib Ansari
+
+---
