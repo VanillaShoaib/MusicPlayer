@@ -26,6 +26,8 @@ Supports playback of popular formats like MP3 and WAV, with a clean and minimal 
    ```Bash
    dotnet publish -c Release -r win-x64 --self-contained true
 
+Or You can just download the Release. You will Need Microsoft .Net Runtime (v6+).
+
 ## 🎮 Usage
 1. First Input the path to the Music Folder.
 2. Then Select one of the option from the Menu by inputting the no. (1 to play a song).
